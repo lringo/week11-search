@@ -58,10 +58,6 @@ app.post('/search', (req, res) => {
 
 });
 
-app.listen(3000, () => {
-    console.log('Server is running.')
-});
-
 app.listen(process.env.PORT || 3000, ()=>{
     console.log('server is running on Port 3000.');
 });
